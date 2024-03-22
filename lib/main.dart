@@ -145,8 +145,8 @@ class _MyHomePageState extends State<MyHomePage>
       itemCount: 10,
       itemBuilder: (context, index) {
         return ListTile(
-          title: Text('Usuario $index'),
-          subtitle: const Text('Hola Hola Hola'),
+          title: Text('Lugares $index'),
+          subtitle: const Text('Costa Rica'),
         );
       },
     );
